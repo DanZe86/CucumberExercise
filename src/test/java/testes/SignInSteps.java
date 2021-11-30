@@ -16,8 +16,6 @@ public class SignInSteps extends BaseTest {
         driver.get("https://hotel-testlab.coderslab.pl/en/login?back=my-account");
         CreateAccountPage creatAccount = new CreateAccountPage(driver);
         creatAccount.enterUserData(e.generateEmail());
-
-
     }
 
 
